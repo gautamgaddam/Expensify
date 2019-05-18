@@ -13,5 +13,5 @@ beforeEach(()=>{
     setEndDate=jest.fn();
     wrapper= shallow(<ExpenseListFilters filters={filters} setTextFilter={setTextFilter} removeExpense={removeExpense} expense={expenses[2]}/>);
     });
-});
+
 

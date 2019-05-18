@@ -12,7 +12,6 @@ beforeEach(()=>{
 })
 
 test('should render AddExpensePage correctly', ()=>{
-    
     expect(wrapper).toMatchSnapshot();
 });
 
